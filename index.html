@@ -1,42 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>css_odin_project</title>
 </head>
+
 <body>
-    <div class="header">
-        <ul>
-            <li>header logo</li>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-            
-        </ul>
-    </div>
-    <div class="body">
-        <div class="s1">
-             <texts class="heading">this website is awesome</texts>
-             <texts class="desc">here goes the desc texts...</texts>
-             <button class="sign up">Sign up</button>
-             <img src="pizza.jpg" alt="pizza image" height="200px " width="600px">
+
+
+
+    <nav class="nav">
+        <div class="header-logo">header logo</div>
+        <div class="header-links">
+            <a href="#">header link one</a>
+            <a href="#">header link two</a>
+            <a href="#">header link three</a>
         </div>
-        <div class="s2">
-            <h1>today's special</h1>
-            <img src="chicagopizza.jpg" alt="pizza image" height="200px " width="600px">
-            <texts class="pdesc">here goes the desc on particular pizza texts...</texts>
-            <img src="greekpizza.jpg" alt="pizza image" height="200px " width="600px">
-            <texts class="pdesc">here goes the desc on particular pizza texts...</texts>
-            <img src="grilledpizza.jpg" alt="pizza image" height="200px " width="600px">
-            <texts class="pdesc">here goes the desc on particular pizza texts...</texts>
-            <img src="pizzarustica.jpg" alt="pizza image" height="200px " width="600px">
-            <texts class="pdesc">here goes the desc on particular pizza texts...</texts>
+    </nav>
+
+    <div class="s1">
+        <div class="s1_content">
+            <h1>this website is awesome</h1>
+            <p>here goes the desc texts...</p>
+            <button>Sign up</button>
         </div>
-        <div class="s3"></div>
-        <div class="s4"></div>
+        <div class="s1_img">
+            <img src="pizza.jpg" alt="pizza image" height="200px " width="600px">
+        </div>
     </div>
+
+    <div class="s2">
+        <h2>today's special</h2>
+        <div class="s2-info">
+            <div>
+                <img src="chicagopizza.jpg" alt="pizza image">
+                <p>text goes...</p>
+            </div>
+            <div>
+                <img src="greekpizza.jpg" alt="pizza image">
+                <p>text goes...</p>
+
+            </div>
+            <div>
+                <img src="grilledpizza.jpg" alt="pizza image">
+                <p>text goes...</p>
+            </div>
+            <div>
+                <img src="pizzarustica.jpg" alt="pizza image">
+                <p>text goes...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="s3">
+        <p>quote goes here....</p>
+        <b>--adone</b>
+    </div>
+
+    <div class="s4">
+        <div class="signup sign-text">
+            <h3>call to action its time</h3>
+            <p>sign up remainder</p>
+        </div>
+        <div class="signup sign-button">
+            <button type="button">Sign up</button>
+        </div>
+    </div>
+
     <div class="footer">Copyright @ The Odin Project 2023</div>
 </body>
+
 </html>
